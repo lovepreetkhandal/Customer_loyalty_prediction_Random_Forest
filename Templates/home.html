@@ -1,3 +1,44 @@
-<h1>
-    Hello!
-</h1>
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>The Customer Loyalty Score</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+      <input type="text" name="distance_from_store" placeholder="distance_from_store" required="required" /><br>
+    	<input type="text" name="credit_score" placeholder="credit_score" required="required" /><br>
+        <input type="text" name="toatl_sales_cost" placeholder="toatl_sales_cost" required="required" /><br>
+        <input type="text" name="num_items" placeholder="num_items" required="required" /><br>
+        <input type="text" name="transactions_id" placeholder="transactions_id" required="required" /><br>
+        <input type="text" name="product_area_id" placeholder="product_area_id" required="required" /><br>
+        <input type="text" name="average_basket_value" placeholder="average_basket_value" required="required" /><br>
+        <input type="text" name="gender_M" placeholder="gender_M" required="required" /><br>
+        
+
+       
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ {{prediction_text}}
+
+</body>
+</html>

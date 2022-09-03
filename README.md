@@ -6,3 +6,8 @@
 3. VS Code IDE
 4. Heroku Account
 5. Git CLI
+
+
+Create a new Environment 
+
+conda create -p venv python==3.7 -y

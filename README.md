@@ -1,5 +1,5 @@
 
-# Predicting Customer Loyalty Using Regression Models
+# Predicting Customer Loyalty Using Different Regression Models
 ![image](https://img.favpng.com/23/8/1/shopping-cart-png-favpng-s0swYX7XaNDeEwnY8wKnSzvF1.jpg)
 
 

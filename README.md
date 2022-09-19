@@ -1,5 +1,5 @@
 
-# Predicting Customer Loyalty Using Different Regression Models
+# Predicting Customer Loyalty Using Different Regression Models (Linear Regression, Decision Tree and Random Forest)
 ![image](https://img.favpng.com/23/8/1/shopping-cart-png-favpng-s0swYX7XaNDeEwnY8wKnSzvF1.jpg)
 
 
